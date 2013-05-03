@@ -1,7 +1,7 @@
-data-parallel-example
+task-parallel-example
 =====================
 
-*An example of a data-parallel program using OpenCL*
+*An example of a task-parallel program using OpenCL*
 
 This program generates a random matrix (10x10, easily changed), and runs a simple function involving addition and multiplication in a data-parallel fashion on each item in the matrix.
 
