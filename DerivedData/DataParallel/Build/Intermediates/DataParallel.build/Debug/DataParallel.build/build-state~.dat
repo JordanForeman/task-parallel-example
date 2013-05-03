@@ -1,0 +1,84 @@
+TDataParallel
+v5
+r1
+cCheck dependencies
+cCompileC DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.o /Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/DataParallel normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h
+c0000000050EC43F4000000000000F659
+t1357661172
+s63065
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c0000000050EC43F400000000000111BC
+t1357661172
+s70076
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h
+c0000000050EC43F6000000000000178E
+t1357661174
+s6030
+
+N/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp
+c0000000051840B380000000000001C10
+t1367608120
+s7184
+i<iostream>
+i<fstream>
+i<sstream>
+i<time.h>
+i<OpenCL/cl.h>
+
+N/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/DataParallel.LinkFileList
+c0000000051840B3E00000000000000A2
+t1367608126
+s162
+
+N/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/DataParallel
+t2
+s0
+
+CBuild AST from /Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbb61c7be4234b741^18b4ccbe4234b741^---0#1#0#--18"Check dependencies36"76021772-B7C0-4A29-B5B7-DD5789D422BA-
+
+CCompileC DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.o /Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389300926.801479
+e389300927.394135
+r1
+xCompileC
+xDerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.o
+x/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp:144:11: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]
+o    srand(time(NULL));
+o    ~~~~~ ^~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cppe352cdbe4234b741^79e764bf4234b741^-254"/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp:144:11: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]    srand(time(NULL));    ~~~~~ ^~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@84"Implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int'-389300927#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp0000000000000000^143#10#143#10#4390#0#14"Semantic Issue2(3@81"file://localhost/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp0000000000000000^143#10#143#20#4390#9#3@81"file://localhost/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp0000000000000000^143#4#143#9#4384#0#-0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp0000000000000000^3280"CompileC DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.o DataParallel/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vsc243/Desktop/data-parallel-example    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/DataParallel-generated-files.hmap -I/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/DataParallel-own-target-headers.hmap -I/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/DataParallel-all-target-headers.hmap -iquote /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/DataParallel-project-headers.hmap -I/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/DerivedSources/x86_64 -I/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/DerivedSources -F/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug -MMD -MT dependencies -MF /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.dia -c /Users/vsc243/Desktop/data-parallel-example/DataParallel/main.cpp -o /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/main.o36"939114F4-3ABC-4E3E-846F-48586B8B88DA-
+
+CLd /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/DataParallel normal x86_64
+s389300927.401738
+e389300927.815958
+r1
+xLd
+x/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/DataParallel
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/DataParallel9eec66bf4234b741^bde3d0bf4234b741^---0#0#0#--929"Ld DerivedData/DataParallel/Build/Products/Debug/DataParallel normal x86_64    cd /Users/vsc243/Desktop/data-parallel-example    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug -F/Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug -filelist /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Intermediates/DataParallel.build/Debug/DataParallel.build/Objects-normal/x86_64/DataParallel.LinkFileList -mmacosx-version-min=10.7 -stdlib=libc++ -framework OpenCL -o /Users/vsc243/Desktop/data-parallel-example/DerivedData/DataParallel/Build/Products/Debug/DataParallel36"6DABAE19-764D-4DFC-AB9F-052CC0593AB3-
+
